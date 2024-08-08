@@ -15,12 +15,15 @@ const config: Config = {
       },
     },
     colors: {
-      "music-light": '#EFEEE0',
-      "music-dark": '#1D2123',
-      "music-secondary": '#FACD66',
-      "music-primary": '#307DB8',
-      "music-dark-alt": '#1A1E1F',
-      "music-alt": '#A4C7C6',
+      music: {
+        "light": '#EFEEE0',
+        "dark": '#1D2123',
+        "primary": '#1DB954',
+        "green-light": "#1ed760",
+        "dark-alt": '#1A1E1F',
+        "alt": '#A4C7C6',
+      },
+
     }
   },
   plugins: [],
