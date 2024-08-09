@@ -1,3 +1,4 @@
+import { signIn } from "@/auth"
 
 interface Props {
   field: string;
@@ -6,6 +7,10 @@ interface Props {
 export const ButtonLogin: React.FC<Props> = ({ field }) => {
   return (
     <form
+      action={async () => {
+        "use server"
+        await signIn("spotify")
+      }}
       className='w-full justify-center flex'
     >
 
