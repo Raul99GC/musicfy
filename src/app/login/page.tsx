@@ -1,6 +1,6 @@
 import Image from 'next/image'
 
-import logoImage from '../../../../public/spotify-logo-img.png'
+import logoImage from '../../../public/spotify-logo-img.png'
 import { ButtonLogin } from '@/components/login/login-button'
 
 const Page: React.FC = () => {
