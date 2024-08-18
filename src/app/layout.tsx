@@ -17,7 +17,7 @@ export default function RootLayout ({
   return (
     <html lang='en'>
       <body className={nunito.className}>
-        <div className='w-full h-screen max-h-screen bg-music-dark text-music-light overflow-hidden'>
+        <div className='w-full h-screen max-h-screen bg-music-dark text-music-light overflow-hidden flex flex-col'>
           {children}
         </div>
       </body>
